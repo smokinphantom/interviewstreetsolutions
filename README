@@ -1,3 +1,6 @@
-Interviewstreet solutions:
+Lasermaze problem:
 
-Solution to the laser beam problem on InterviewStreet.
+lasermaze.js = simple solution to the problem
+lasermazeoop.js = removed some redundant code.
+
+Question:You have a room with empty spaces and a laser beam at some position. The laser beam will always fire the beam in the east direction. The laser beam will hit east side wall of the room normally if there are no obstructions. Count the number of spaces the beam has travelled before hitting the wall. There can be prisms facing in the face of the beam to deflect it to some other direction. If there are prisms the beam will be redirected to different directions before hitting the wall. The input will be through a variable called input which will take a string as an input. The string will have:@ = laser beam starting point -   = empty spaceIt can also have prisms(>,<,^,v) for right, left, up and down respectively. The string will have \n for separating each line in the string. One line in the string represents 1 row in a room. Sample inputs: 1st sample input:@--------1st sample output:3Explanation for the 1st sample output: The laser beam was fired from @ towards the east. In all it covered 3 distance. We have to count the distance including @. If there is an infinite loop for the laser beam print out -1.2nd sample input:@-v------2nd sample output:53rd sample input:@-v-----<3rd sample output:74th sample input:@-v----^<4th sample output: 85th sample input:@-v->--^<5th sample output:86th sample input:@-v->v-^<6th sample output:-1So Accept the input as in your code:Eg: var input =  "@--\n---\n---"; this is for 1st example
